@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+}
+
+.search_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.icon {
+  width: 10%;
+}
+.inputelement {
+  cursor: pointer;
+  outline: none;
+}
+
+.list-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-item-container {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.imgCss {
+  height: 150px;
+}
